@@ -24,6 +24,11 @@
   },
   "homepage": "https://github.com/omaribarra-dev/amp-base#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-help": "^1.6.1",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "postcss": "^7.0.5"
   }
 }
