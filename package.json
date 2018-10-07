@@ -1,0 +1,26 @@
+{
+  "name": "amptag",
+  "version": "1.0.0",
+  "description": "Proyecto AMP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omaribarra-dev/amp-base.git"
+  },
+  "keywords": [
+    "amp",
+    "google",
+    "amp",
+    "web",
+    "performance"
+  ],
+  "author": "Omar Ibarra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omaribarra-dev/amp-base/issues"
+  },
+  "homepage": "https://github.com/omaribarra-dev/amp-base#readme"
+}
