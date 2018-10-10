@@ -1,0 +1,552 @@
+
+<!doctype html>
+<html ⚡="">
+
+<head>
+  <meta charset="utf-8">
+  <title>AMP Start - Accelerated Mobile Pages Templates</title>
+  <link rel="canonical" href="https://www.ampstart.com/">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta name="amp-google-client-id-api" content="googleanalytics">
+
+  <script async="" src="https://cdn.ampproject.org/v0.js"></script>
+
+  <link rel="shortcut icon" href="/img/www/amp_favicon.png">
+
+
+  <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+
+<script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
+<script custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js" async=""></script>
+<script custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js" async=""></script>
+<script custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js" async=""></script>
+<script custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js" async=""></script>
+<script custom-element="amp-geo" src="https://cdn.ampproject.org/v0/amp-geo-0.1.js" async=""></script>
+<script custom-element="amp-consent" src="https://cdn.ampproject.org/v0/amp-consent-0.1.js" async=""></script>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat" rel="stylesheet">
+
+  <style amp-custom="">@import "../../../components/lightbox/template-preview";@import "../shared";.www-header{min-height:440px;padding-top:var(--space-4)}.www-header>h1+span{max-width:35rem}.www-index-showcase{transform:translateY(-250px);margin-bottom:-250px}.www-index-showcase-header-img [placeholder]{background:url(../img/www/index/head_ph.png) no-repeat 50%;background-size:cover}..www-index-showcase-feature,.www-index-showcase-template{background-color:hsla(0,0%,60.8%,.4)}.www-index-showcase>ul>li:nth-child(odd)>.www-index-showcase-feature,.www-index-showcase>ul>li:nth-child(odd)>.www-index-showcase-template{background-color:rgba(0,65,119,.05)}.www-index-showcase-components-container>.www-index-showcase-feature{background:none}.www-index-showcase-feature .ampstart-btn{background-color:transparent}.www-index-showcase-feature>div>:not(.www-index-showcase-feature-preview){max-width:19rem}.www-index-showcase-feature-preview h3{font-family:var(--font-family);font-size:1rem}.www-index-showcase-components li{position:absolute;min-width:10%;min-height:10%;width:31.6%}.www-index-showcase-components ul{overflow:hidden}.www-index-showcase-components li:first-child{left:34.6%;top:-5%}.www-index-showcase-components li:nth-child(2){left:66%;top:-12.5%;width:25%}.www-index-showcase-components li:nth-child(3){top:7.5%;left:7.5%}.www-index-showcase-components li:nth-child(4){width:24.3%;top:31.2%;left:42%}.www-index-showcase-components li:nth-child(5){left:68.3%;top:39.4%}.www-index-showcase-components li:nth-child(6){top:54.6%;left:8.6%}.www-index-showcase-components li:nth-child(7){top:66.5%;left:11.7%}.www-index-showcase-components li:nth-child(8){top:68.3%;left:42%}.www-index-showcase-components li:nth-child(9){top:78.7%;left:60.8%}.www-index-help{background-color:#f1f1f8}.www-index-help-image-container{background:var(--header-gradient)}.www-index-help>ul>li{width:386px;background-color:var(--color-white)}.www-index-help .ampstart-icon{fill:var(--color-font-secondary)}.www-index-action .ampstart-icon{fill:var(--color-black)}.www-index-action:hover .ampstart-icon{fill:url(#svg-gradient)}.www-index-showcase-feature-preview h3:before{content:"↑ ";display:inline}@media (--breakpoint-md){.www-index-showcase>ul>li:nth-child(2n)>.www-index-showcase-components,.www-index-showcase>ul>li:nth-child(2n)>.www-index-showcase-template{order:2}.www-index-showcase-feature-preview h3:before{content:"← "}.www-index-showcase>ul>li:nth-child(2n) .www-index-showcase-feature-preview h3:before{content:"";content:"→ "}}@media (--breakpoint-xs){.www-header{min-height:300px}.www-index-showcase{transform:translateY(-200px);margin-bottom:-200px}.www-index-showcase-template{padding-right:0}.www-index-showcase-feature>*{margin-left:0}}@media (--breakpoint-sm-md),(--breakpoint-xs){.www-index-showcase-feature{padding-top:0}}</style>
+</head>
+
+<body class="www-index-page">
+    <div class="hide">
+        <svg width="0" height="0">
+            <defs>
+                <linearGradient id="svg-gradient">
+                    <stop offset="0%" class="start"></stop>
+                    <stop offset="100%" class="stop"></stop>
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+    <main>
+        <header class="www-header center">
+            <amp-img src="/img/www/amp_logo_white.svg" width="50" height="50" layout="fixed" class="align-middle mb4 ml2 mr1" alt="AMP logo"></amp-img>
+            <h1 class="align-middle mr2 mb4 inline-block">AMP Start</h1>
+            <span class="block pb4 px2 mb4 h3 max-width-2 mx-auto">Build responsive, lightning-fast AMP pages with our
+                templates and components</span>
+        </header>
+        <section class="www-index-showcase mb3">
+            <header class="col-9 mx-auto my4">
+                <amp-img class="www-index-showcase-header-img max-width-3 mx-auto" width="1664" height="1006" layout="responsive" src="../img/www/index/head.png" alt="List of sample templales built with AMP Start" noloading="">
+                    <div placeholder="" class="max-width-3"></div>
+                </amp-img>
+            </header>
+            <ul class="www-index-showcase-list mt0 list-reset relative">
+                <li class="flex flex-wrap items-stretch justify-center">
+                    <div class="www-index-showcase-template flex flex-column col-12 xs-col-12 sm-col-12 md-col-6 lg-col-6 py4 pr3">
+                        <amp-img width="1480" height="1100" layout="responsive" alt="Screenshot of the Land+See template" src="/img/www/index/landsee_both.png" srcset="/img/www/index/landsee_both.png 1x,/img/www/index/landsee_both_2x.png 2x"></amp-img>
+                    </div>
+                    <div class="www-index-showcase-feature flex flex-column justify-center items-center col-12 xs-col-12 sm-col-12 md-col-6 lg-col-6 p4">
+                        <div>
+                            <h2 class="mb3">Responsive</h2>
+                            <p class="mb3">Templates designed to work with all devices - mobile, tablet and desktop.</p>
+                            <a href="templates.html" class="ampstart-btn caps inline-block mb4 ">View templates</a>
+
+                            <div class="www-index-showcase-feature-preview flex flex-wrap items-center mt2">
+                                <h3 class="ampstart-label mr2">Land+See Template</h3>
+                                <div class="flex items-center">
+                                    <span class="www-index-action flex items-center xs-hide mr2" title="View Land+See Template" role="button" tabindex="0" on="tap:land-see" data-vars-preview="templates/land-see/land-see.amp.html">
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+                                    </span>
+                                    <a href="templates/land-see/land-see.amp.html" target="_blank" class="www-index-action flex items-center sm-hide md-hide lg-hide" data-vars-preview="templates/land-see/land-see.amp.html">
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+                                    </a>
+                                    <a href="archive/land-see.zip" target="_blank" role="button" tabindex="0" class="www-index-action flex items-center xs-hide" data-vars-download="archive/land-see.zip">
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="flex flex-wrap items-stretch justify-center">
+                    <div class="www-index-showcase-template flex flex-column col-12 xs-col-12 sm-col-12 md-col-6 lg-col-6 py4 pr3">
+                        <amp-img width="1280" height="952" layout="responsive" alt="Screenshot of the travel template" src="/img/www/index/travel_both.png" srcset="/img/www/index/travel_both.png 1x,/img/www/index/travel_both_2x.png 2x"></amp-img>
+                    </div>
+                    <div class="www-index-showcase-feature flex flex-column justify-center items-center col-12 xs-col-12 sm-col-12 md-col-6 lg-col-6 p4">
+                        <div>
+                            <h2 class="mb3">Flexible</h2>
+                            <p class="mb3">Modern designs that you can customize to suit your needs.</p>
+                            <a href="templates.html" class="ampstart-btn caps inline-block mb4 ">View templates</a>
+
+                            <div class="www-index-showcase-feature-preview flex flex-wrap items-center mt2">
+                                <h3 class="ampstart-label mr2">Travel Template</h3>
+                                <div class="flex items-center">
+                                    <span class="www-index-action flex items-center xs-hide mr2" title="View Travel Template" role="button" tabindex="0" on="tap:travel-template" data-vars-preview="templates/travel/travel.amp.html">
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+                                    </span>
+                                    <a href="templates/travel/travel.amp.html" target="_blank" class="www-index-action flex items-center sm-hide md-hide lg-hide" data-vars-preview="templates/travel/travel.amp.html">
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+                                    </a>
+                                    <a href="archive/travel.zip" target="_blank" role="button" tabindex="0" class="www-index-action flex items-center xs-hide" data-vars-download="archive/travel.zip">
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="flex flex-wrap items-stretch justify-center">
+                    <div class="www-index-showcase-template flex flex-column col-12 xs-col-12 sm-col-12 md-col-6 lg-col-6 py4 pr3">
+                        <amp-img width="1280" height="952" layout="responsive" alt="Screenshot of the gallery template" src="/img/www/index/gallery_both.png" srcset="/img/www/index/gallery_both.png 1x,/img/www/index/gallery_both_2x.png 2x"></amp-img>
+                    </div>
+                    <div class="www-index-showcase-feature flex flex-column justify-center items-center col-12 xs-col-12 sm-col-12 md-col-6 lg-col-6 p4">
+                        <div>
+                            <h2 class="mb3">Open Source</h2>
+                            <p class="mb3">Developers and designers can share and contribute their designs for new templates and components.</p>
+                            <a href="templates.html" class="ampstart-btn caps inline-block mb4 ">View templates</a>
+
+                            <div class="www-index-showcase-feature-preview flex flex-wrap items-center mt2">
+                                <h3 class="ampstart-label mr2">Gallery Template</h3>
+                                <div class="flex items-center">
+                                    <span class="www-index-action flex items-center xs-hide mr2" title="View Gallery Template" role="button" tabindex="0" on="tap:the-gallery-template" data-vars-preview="templates/gallery/gallery.amp.html">
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+                                    </span>
+                                    <a href="templates/gallery/gallery.amp.html" target="_blank" class="www-index-action flex items-center sm-hide md-hide lg-hide" data-vars-preview="templates/gallery/gallery.amp.html">
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+                                    </a>
+                                    <a href="archive/gallery.zip" target="_blank" role="button" tabindex="0" class="www-index-action flex items-center xs-hide" data-vars-download="archive/gallery.zip">
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="www-index-showcase-components-container flex flex-wrap items-stretch justify-center">
+                    <div class="www-index-showcase-components col-12 xs-col-12 sm-col-12 md-col-6 lg-col-6 mb4 relative">
+                        <amp-img layout="responsive" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E" width="1430" height="1404" alt="background spacing image." class="max-width-3 block mx-auto" aria-hidden=""></amp-img>
+
+                        <ul class="list-reset absolute top-0 bottom-0 left-0 right-0">
+                            <li>
+                                <amp-img src="../img/www/index/component1.png" width="534" height="386" alt="Component1" layout="responsive"></amp-img>
+                            </li>
+                            <li>
+                                <amp-img src="../img/www/index/component2.png" width="416" height="660" alt="Component2" layout="responsive"></amp-img>
+                            </li>
+                            <li>
+                                <amp-img src="../img/www/index/component3.png" width="540" height="596" alt="Component3" layout="responsive"></amp-img>
+                            </li>
+                            <li>
+                                <amp-img src="../img/www/index/component4.png" width="410" height="430" alt="Component4" layout="responsive"></amp-img>
+                            </li>
+                            <li>
+                                <amp-img src="../img/www/index/component5.png" width="540" height="388" alt="Component5" layout="responsive"></amp-img>
+                            </li>
+                            <li>
+                                <amp-img src="../img/www/index/component6.png" width="540" height="104" alt="Component6" layout="responsive"></amp-img>
+                            </li>
+                            <li>
+                                <amp-img src="../img/www/index/component7.png" width="528" height="566" alt="Component7" layout="responsive"></amp-img>
+                            </li>
+                            <li>
+                                <amp-img src="../img/www/index/component8.png" width="536" height="312" alt="Component8" layout="responsive"></amp-img>
+                            </li>
+                            <li>
+                                <amp-img src="../img/www/index/component9.png" width="542" height="282" alt="Component9" layout="responsive"></amp-img>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="www-index-showcase-feature flex flex-column justify-center items-center col-12 xs-col-12 sm-col-12 md-col-6 lg-col-6 p4">
+                        <div>
+                            <h2 class="mb4">Page Components</h2>
+                            <p class="mb4">Incorporate specific designed elements of a page into your own.</p>
+                            <a href="components.html" class="ampstart-btn caps inline-block">Learn More</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="www-index-help py4">
+            <h2 class="mb3 center">Get Help</h2>
+            <ul class="list-reset flex flex-wrap justify-center">
+                <li class="ampstart-card mx3 mb3">
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;ampproject&#x2F;ampstart" target="_blank" class="text-decoration-none block">
+                        <div class="www-index-help-image-container center p3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 64 64"><path d="M22.4 1.4C-.8 9-7.4 38.4 10.5 54.9 14.7 58.8 20.4 62 23 62c.5 0 1-1.6 1-3.5 0-3.3-.2-3.5-3.5-3.5-3.5 0-4.2-.5-9-6.6-4.4-5.6-2.3-6.2 3.2-.9 4.2 4 7.5 4.5 9.8 1.2 1.4-2.1 1.4-2.2-.7-3-6-2.3-8.8-4.2-10.2-7.2-2.1-4.3-2.1-12.4 0-15.3.8-1.2 1.2-2.7.9-3.2-1-1.6.5-7 1.8-7 .7 0 2.4.6 3.8 1.4 1.7.9 6 1.4 11.9 1.4s10.2-.5 11.9-1.4c1.4-.8 3.1-1.4 3.8-1.4 1.3 0 2.8 5.4 1.8 7-.3.5.1 2 .9 3.2 1.8 2.5 2.1 10.3.7 14.1-1.4 3.6-5 6.6-9.3 7.8-3.3.9-3.7 1.2-2.8 2.9.5 1 1 4.6 1 7.9 0 3.5.4 6.1 1 6.1 5.2 0 15.8-8.8 19.8-16.5 2.3-4.3 2.7-6.3 2.7-13.5 0-7-.4-9.4-2.4-13.5C57.9 12.2 51.8 6 45.6 3 39.6.2 28.5-.6 22.4 1.4z" class="ampstart-icon"></path></svg>
+                        </div>
+                        <h3 class="m3 caps ampstart-title-sm">Understand the code</h3>
+                        <p class="m3">Read the documentation or request a feature on GitHub.</p>
+                    </a>
+                </li>
+                <li class="ampstart-card mx3 mb3">
+                    <a href="https:&#x2F;&#x2F;docs.google.com&#x2F;forms&#x2F;d&#x2F;1wAE8w3K5preZnBkRk-MD1QkX8FmlRDxd_vs4bFSeJlQ&#x2F;viewform?fbzx&#x3D;4406980310789882877" target="_blank" class="text-decoration-none block">
+                        <div class="www-index-help-image-container center p3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="55" height="55"><path d="M13.299 2.004a1.746 1.746 0 0 0-.672.096 1.64 1.64 0 0 0-1.032 2.087l.696 2.039-3.935 1.32-.648-1.967a1.64 1.64 0 0 0-2.087-1.032 1.652 1.652 0 0 0-1.056 2.087l.648 1.944-2.04.696c-.868.29-1.322 1.244-1.032 2.111s1.22 1.322 2.087 1.032l2.039-.672 1.32 3.911-1.968.648a1.64 1.64 0 0 0-1.032 2.087 1.652 1.652 0 0 0 2.087 1.056L8.62 18.8l.696 2.039c.29.868 1.244 1.322 2.111 1.032a1.64 1.64 0 0 0 1.032-2.087l-.672-2.039 3.911-1.32.648 1.968a1.64 1.64 0 0 0 2.087 1.032 1.653 1.653 0 0 0 1.056-2.087l-.648-1.944 2.039-.696c.868-.29 1.322-1.244 1.032-2.111a1.64 1.64 0 0 0-2.087-1.032l-2.039.672-1.32-3.911 1.968-.648a1.64 1.64 0 0 0 1.032-2.087 1.652 1.652 0 0 0-2.087-1.056l-1.944.648-.696-2.039a1.654 1.654 0 0 0-1.44-1.13zm.024 7.366l1.32 3.911-3.911 1.32-1.32-3.911 3.911-1.32z" class="ampstart-icon"></path></svg>
+                        </div>
+                        <h3 class="m3 caps ampstart-title-sm">Ask the Community</h3>
+                        <p class="m3">Join the AMP Slack channel to  get help from others using the AMP format or share your latest work.</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+
+<!-- Start Navbar -->
+<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2  ">☰
+    </div>
+    <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link  xs-hide sm-hide">
+        <amp-img src="/img/www/amp_start_logo.svg" width="119" height="26" layout="fixed" class="my0 mx-auto " alt="AMP start home logo"></amp-img>
+    </a>
+    <nav class="ampstart-headerbar-nav ampstart-nav  xs-hide sm-hide">
+        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+            <li class="ampstart-nav-item www-nav-templates"><a href="templates.html" class="text-decoration-none block">Templates</a></li>
+            <li class="ampstart-nav-item www-nav-components"><a href="components.html" class="text-decoration-none block">Components</a></li>
+            <li class="ampstart-nav-item www-nav-getstarted"><a href="getstarted.html" class="text-decoration-none block">Get Started</a></li>
+            <li class="ampstart-nav-item www-nav-howitworks"><a href="howitworks.html" class="text-decoration-none block">How It Works</a></li>
+            <li class="ampstart-nav-item "><a href="https://www.ampproject.org/learn/about-amp/" class="text-decoration-none block" target="_blank">What is AMP?</a></li>
+            <li class="ampstart-nav-item "><a href="https://github.com/ampproject/ampstart" class="text-decoration-none block" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navbar -->
+
+<amp-analytics type="googleanalytics" id="analytics-ga">
+  <script type="application/json">
+  {
+    "vars": {
+      "account": "UA-101305609-1"
+    },
+    "triggers": {
+      "trackPageview": {
+        "on": "visible",
+        "request": "pageview"
+      },
+      "previews": {
+        "on": "click",
+        "selector": "[data-vars-preview]",
+        "request": "event",
+        "vars": {
+          "eventCategory": "preview",
+          "eventAction": "click",
+          "eventLabel": "${preview}"
+        }
+      },
+      "downloads": {
+        "on": "click",
+        "selector": "[data-vars-download]",
+        "request": "event",
+        "vars": {
+          "eventCategory": "download",
+          "eventAction": "click",
+          "eventLabel": "${download}"
+        }
+      },
+      "outboundLinks": {
+        "on": "click",
+        "selector": "[data-vars-outbound-link]",
+        "request": "event",
+        "vars": {
+          "eventCategory": "outbound",
+          "eventAction": "click",
+          "eventLabel": "${outboundLink}"
+        }
+      }
+    }
+  }
+  </script>
+</amp-analytics>
+
+</body>
+
+</html>
